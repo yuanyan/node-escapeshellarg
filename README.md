@@ -11,5 +11,5 @@ npm install escapeshellarg
 
 ```
 var escapeshellarg = require('escapeshellarg')
-escapeshellarg("Hello's world") // => "'Hello\\'s world'"
+escapeshellarg("Hello's world") // => "'Hello'\\''s world'"
 ```
